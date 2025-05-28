@@ -1,0 +1,13 @@
+streamlit
+torch
+transformers
+nltk
+pandas
+matplotlib
+wordcloud
+scikit-learn
+datasets
+evaluate
+langdetect
+summa-summarizer
+    

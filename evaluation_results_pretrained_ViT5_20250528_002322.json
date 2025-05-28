@@ -1,0 +1,60 @@
+{
+    "timestamp": "2025-05-28T00:23:22.266398",
+    "model_name": "VietAI/vit5-base-vietnews-summarization",
+    "num_validation_samples_evaluated": 14913,
+    "inference_batch_size": 64,
+    "evaluation_time_seconds": 1082.3271484375,
+    "rouge_scores": null,
+    "example_outputs": [
+        {
+            "document_preview": "Vì lý do an toàn, việc đầu tiên bạn cần làm là kiểm tra liệu chó của bạn có phù hợp với việc đi dạo bằng xe đạp. Hãy trao đổi với bác sĩ thú y để xem liệu chú chó có bệnh tiềm ẩn có thể bị trầm trọng hơn khi luyện tập liên tục như vậy hay không. Bạn cũng cần biết chó của mình thuộc giống gì để có bà...",
+            "reference_summary": "Gặp bác sĩ thú y . Trang bị cho bản thân . Trang bị cho chú chó .",
+            "generated_summary": "C"
+        },
+        {
+            "document_preview": "Báo An Ninh Thủ Đô đưa tin , cục Quản lý Dược bổ sung thêm vào danh sách các thuốc phải thu hồi , ngừng sản xuất , ngừng nhập khẩu vì có sử dụng nguyên liệu Valsartan , gồm : Valsartan160 , SĐK : VD -29714-18 ( công ty Cổ phần Dược phẩm Cửu Long ) ; Cobidan 80 , SĐK : VD -22086-15 ( công ty Cổ phần ...",
+            "reference_summary": "Ngày 6/9 , cục Quản lý dược - bộ Y tế thông báo thu hồi , ngừng sản xuất , ngừng nhập khẩu thêm 8 loại thuốc có hoạt chất Valsartan có thể gây ung thư .",
+            "generated_summary": "h"
+        },
+        {
+            "document_preview": "Có V hơn A 30 . 000 loại N thuốc N được liệt kê V trong danh sách N thuốc N y tế N của Chính phủ N Thái Lan . Các lựa chọn N khácChính V sách N áp dụng V cho tổng cộng V 353 V bệnh viện N tư tại Thái Lan , theo V báo N Bangkok Post . Ngoài ra , các bệnh viện N tư N cũng buộc V phải V cho V bệnh nhân...",
+            "reference_summary": "Bắt đầu từ 30-5 , bệnh viện tư nhân tại Thái Lan phải công khai giá thuốc cũng như phí các thiết bị y tế và dịch vụ cho bệnh nhân trước khi họ quyết định chấp nhận điều trị , trong nỗ lực minh bạch hóa chi phí y tế .",
+            "generated_summary": "ỉ"
+        },
+        {
+            "document_preview": "Anh Linh bên hai cây nấm \" khủng \" được một người bạn tặng .Anh Đào Duy Linh ( 29 tuổi ở TP Tam Kỳ , Quảng Nam ) cho biết , vừa được một người bạn ở Nghệ An gửi tặng hai cây nấm \" khủng \" , to bằng hai cái ô .Mỗi cây nấm rộng hơn một mét , nặng khoảng 6kg .Trên và dưới cây nấm to có hàng chục cây nấ...",
+            "reference_summary": "Hai cây nấm ở Quảng Nam to bằng cái ô , mỗi cây nặng khoảng 6 kg ; trên và dưới cây nấm to có hàng chục nấm con mọc quanh .",
+            "generated_summary": " "
+        },
+        {
+            "document_preview": "Tham khảo N một số kiểu N sau N : Cạo sạch A . Không N có V bất kỳ A rủi ro A về sức khỏe N nào nếu bạn N thực hiện V một cách N vệ sinh A , dùng V dao cạo N mới A , sử dụng V chất N chống V nhiễm khuẩn N sau N khi N cạo V và không cắt V phạm V vào da N . Sau N đó bạn N cạo V xung quanh N khung N và...",
+            "reference_summary": "Quyết định hình dáng lông mu ( lông bên dưới rốn ) mà bạn muốn . Tỉa bớt lông còn khoảng 6 m bằng kéo trước khi tắm . Tắm để lông mềm hơn . Tẩy tế bào chết . Làm ướt khu vực bằng nước ấm và kem cạo râu . Làm ướt dao cạo mới . Cạo theo chiều lông mọc bằng những đường dài , chậm và đều nhau .",
+            "generated_summary": "t"
+        },
+        {
+            "document_preview": "Mèo thường thức dậy vào ban đêm vì một số nguyên nhân cơ bản hiển nhiên. Có thể chúng chán, đói bụng, hoặc cần bạn dọn khay vệ sinh. Mèo thường ở trong nhà cả ngày khi bạn vắng nhà và ít hoạt động tương tác. Chúng ngủ cả ngày và có thể trở nên buồn chán vào ban đêm vì không có ai để chơi đùa. Một tr...",
+            "reference_summary": "Tìm hiểu lý do mèo làm phiền bạn vào ban đêm . Không cho mèo ăn . Loại bỏ sự cám dỗ . Hạn chế mèo tiếp xúc với loài vật gây hại . Giữ mèo ở ngoài phòng ngủ .",
+            "generated_summary": "r"
+        },
+        {
+            "document_preview": "Theo V Hãng N tin N AP , sau N rất nhiều A bàn cãi N của dư luận N và các tổ chức N nghiên cứu V , lần N đầu tiên A ngày N 24-4 , WHO đã phát V văn bản N chỉ dẫn V về việc N nên cho trẻ A dưới 5 tuổi N tiếp xúc V với thiết bị N màn hình N trong bao lâu để không ảnh hưởng V tới sức khỏe N và sự N phá...",
+            "reference_summary": "Lần đầu tiên Tổ chức Y tế thế giới ( WHO ) công bố chỉ dẫn về thời gian tiếp xúc thiết bị điện tử với trẻ nhỏ , theo đó trẻ dưới 1 tuổi được khuyên tuyệt đối không cho tiếp xúc .",
+            "generated_summary": "o"
+        },
+        {
+            "document_preview": "Chó thường khá thân thiện, nhưng nếu bạn chưa bao giờ tiếp xúc với chúng thì sẽ khó xác định chúng sẽ phản ứng với người lạ như thế nào. Nếu người chủ đưa ra chỉ dẫn khác với bài viết này, bạn có thể làm theo họ. Nếu người chủ cho phép bạn âu yếm thú cưng của họ, bạn có thể hỏi chú cún thích được âu...",
+            "reference_summary": "Xin phép người chủ để âu yếm chú cún . Cẩn thận với những chú chó không có chủ . Lùi lại khi thấy chó có dấu hiệu gây hấn hoặc không thoải mái . Cúi xuống hoặc ngồi xổm để khuyến khích chó đến gần . Dỗ dành chú chó có vẻ nhút nhát tiến lại gần hơn . Đưa nắm tay ra . Quan sát tâm trạng thoải mái của chú cún .",
+            "generated_summary": "n"
+        },
+        {
+            "document_preview": "Người dân vớt cá bỏ đưa vào bờ .Ông Dương Văn Cù ( 53 tuổi , xã Đa Kia , huyện Bù Gia Mập ) cho biết , gia đình ông thuê mặt nước hồ thuỷ lợi để nuôi các loại cá như : lăng , trôi , mè ... Hai hôm trước , khi ra cho cá ăn , ông hốt hoảng khi phát hiện gần 20 tấn cá chết nổi trắng mặt hồ .Trong đó , ...",
+            "reference_summary": "Cá lăng , trôi , mè . được nuôi trên hồ thủy lợi ở huyện Bù Gia Mập bất ngờ chết trắng khiến người nuôi điêu đứng .",
+            "generated_summary": "g"
+        },
+        {
+            "document_preview": "Các hóa chất thực vật này dường như có tác dụng kích thích sự sản xuất mật của gan và ức chế sự hình thành sỏi cholesterol. Rowachol cũng tăng hiệu quả cùa các dung môi khác. Có nhiều ý kiến khác nhau về hiệu quả của phương pháp thải độc gan và túi mật. Lưu ý rằng hầu hết các “bằng chứng” có trong p...",
+            "reference_summary": "Điều trị sỏi mật bằng hóa chất thực vật . Cân nhắc phương pháp thải độc túi mật . Thử châm cứu . Điều trị các triệu chứng của bệnh túi mật bằng thảo mộc hoặc các liệu pháp vi lượng đồng căn .",
+            "generated_summary": " "
+        }
+    ]
+}
