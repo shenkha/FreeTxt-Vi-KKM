@@ -56,12 +56,30 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 ### 4. Install Python Dependencies
 
-The required packages are listed in `streamlit_requirements.txt`. You can install them, along with other necessary packages not listed in the file, using pip.
+This project contains two dependency files for different use cases. Please follow the instructions relevant to your needs.
 
+#### Option A: For the Streamlit Application (Recommended for Demo)
+
+This setup is for users who want to run the interactive web application. The `streamlit_requirements.txt` file contains most of the necessary packages.
+
+Install all required packages with the following commands:
 ```bash
 pip install --upgrade pip
-pip install streamlit torch transformers nltk pandas matplotlib wordcloud scikit-learn datasets evaluate langdetect summa vncorenlp==1.0.3
+pip install -r streamlit_requirements.txt
+pip install summa vncorenlp==1.0.3
 ```
+*Note: `summa` and `vncorenlp` are installed separately as they are crucial for the summarization and word cloud features but are not included in the base requirements file.*
+
+#### Option B: For Full Project Development (Notebooks & Flask)
+
+This setup is for developers who intend to run the Jupyter Notebooks for training/evaluation, or to work with the Flask components of the project. This uses the more comprehensive `requirements.txt` file.
+
+Install all required packages with the following command:
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+*Note: The main `requirements.txt` does not include `streamlit`. If you want to run the Streamlit demo after this setup, you will need to install it separately: `pip install streamlit`.*
 
 ### 5. Download and Set Up VnCoreNLP
 
