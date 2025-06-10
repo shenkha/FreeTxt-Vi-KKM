@@ -9,5 +9,5 @@ scikit-learn
 datasets
 evaluate
 langdetect
-summa-summarizer
+
     
