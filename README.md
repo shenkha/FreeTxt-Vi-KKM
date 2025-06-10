@@ -1,4 +1,4 @@
-# FreeTxt-Vi-KKM: A Toolkit for Vietnamese NLP
+# FreeTxt-Vi: A Toolkit for Vietnamese NLP
 
 This repository contains a comprehensive toolkit for performing various Natural Language Processing (NLP) tasks on Vietnamese text, with some features also supporting English. The primary component is an interactive web application built with Streamlit. The project also includes notebooks for experimentation and development of NLP models.
 
